@@ -49,6 +49,11 @@ export default function Footer() {
         {/* Brand Description Column */}
         <div className="lg:col-span-4 space-y-6">
           <div className="flex items-center space-x-3.5">
+            <img
+              src="https://res.cloudinary.com/lbxv4x3c/image/upload/v1792844701/b20522f9-7df5-4eba-bfb8-ae8b2f04447d.png"
+              alt="balinikitour logo"
+              className="w-12 h-12 object-contain rounded-full border border-gold-400/30 bg-neutral-900/80 p-0.5 shadow-lg"
+            />
             <div className="flex flex-col">
               <span className="font-serif text-2xl tracking-wide text-gold-200 font-bold">
                 balinikitour

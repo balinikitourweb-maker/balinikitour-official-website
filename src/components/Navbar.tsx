@@ -89,6 +89,11 @@ export default function Navbar({ activePage, setActivePage, onBookNow }: NavbarP
           className="flex items-center space-x-3 select-none group text-left cursor-pointer"
           id="nav-logo"
         >
+          <img
+            src="https://res.cloudinary.com/lbxv4x3c/image/upload/v1792844701/b20522f9-7df5-4eba-bfb8-ae8b2f04447d.png"
+            alt="balinikitour logo"
+            className="w-9 h-9 md:w-10 md:h-10 object-contain rounded-full border border-gold-400/30 bg-neutral-900/60 p-0.5 shadow-md group-hover:border-gold-400/70 transition-all duration-300"
+          />
           <div className="flex flex-col">
             <span className="font-serif text-xl md:text-2xl tracking-wider text-gold-200 group-hover:text-gold-400 transition-colors duration-300 font-bold">
               balinikitour
@@ -217,13 +222,20 @@ export default function Navbar({ activePage, setActivePage, onBookNow }: NavbarP
         >
           {/* Mobile Top Header inside menu */}
           <div className="bg-[#000000] border-b border-gold-900/30 px-6 py-4 flex items-center justify-between shrink-0">
-            <div className="flex flex-col text-left">
-              <span className="font-serif text-xl tracking-wider text-gold-200 font-bold">
-                balinikitour
-              </span>
-              <span className="font-sans text-[8px] uppercase tracking-[0.25em] text-gold-400 font-semibold">
-                Premium Tour & Travel
-              </span>
+            <div className="flex items-center space-x-3 text-left">
+              <img
+                src="https://res.cloudinary.com/lbxv4x3c/image/upload/v1792844701/b20522f9-7df5-4eba-bfb8-ae8b2f04447d.png"
+                alt="balinikitour logo"
+                className="w-9 h-9 object-contain rounded-full border border-gold-400/30 bg-neutral-900/60 p-0.5"
+              />
+              <div className="flex flex-col">
+                <span className="font-serif text-xl tracking-wider text-gold-200 font-bold">
+                  balinikitour
+                </span>
+                <span className="font-sans text-[8px] uppercase tracking-[0.25em] text-gold-400 font-semibold">
+                  Premium Tour & Travel
+                </span>
+              </div>
             </div>
             <button
               onClick={() => setIsMobileMenuOpen(false)}

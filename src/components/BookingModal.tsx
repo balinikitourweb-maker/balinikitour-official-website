@@ -1014,9 +1014,16 @@ Halo Concierge Bali Niki Tour, saya ingin konfirmasi pemesanan paket tur di atas
                 <div className="relative z-10 space-y-6">
                   {/* Voucher Header with Branding and QR Code */}
                   <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 border-b border-gold-900/20 pb-5">
-                    <div className="text-left">
-                      <span className="font-serif text-xl text-gold-200 font-bold tracking-widest uppercase block">BALI NIKI TOUR</span>
-                      <span className="block text-[9px] font-mono tracking-[0.25em] text-gold-400 uppercase font-bold mt-0.5">EXCLUSIVE BALI TOUR VOUCHER</span>
+                    <div className="flex items-center space-x-3 text-left">
+                      <img
+                        src="https://res.cloudinary.com/lbxv4x3c/image/upload/v1792844701/b20522f9-7df5-4eba-bfb8-ae8b2f04447d.png"
+                        alt="balinikitour logo"
+                        className="w-10 h-10 object-contain rounded-full border border-gold-400/30 bg-neutral-950 p-0.5"
+                      />
+                      <div>
+                        <span className="font-serif text-xl text-gold-200 font-bold tracking-widest uppercase block">BALI NIKI TOUR</span>
+                        <span className="block text-[9px] font-mono tracking-[0.25em] text-gold-400 uppercase font-bold mt-0.5">EXCLUSIVE BALI TOUR VOUCHER</span>
+                      </div>
                     </div>
 
                     <div className="bg-white p-2 rounded border border-gold-400 flex items-center gap-3">
